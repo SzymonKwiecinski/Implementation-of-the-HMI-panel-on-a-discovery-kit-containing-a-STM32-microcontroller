@@ -1,0 +1,31 @@
+main.cpp:135:5:int main()	72	static
+main.cpp:242:6:void SystemClock_Config()	216	static
+main.cpp:324:13:void MX_ADC3_Init()	24	static
+main.cpp:374:13:void MX_CRC_Init()	8	static
+main.cpp:405:13:void MX_DCMI_Init()	8	static
+main.cpp:442:13:void MX_ETH_Init()	8	static
+main.cpp:484:13:void MX_I2C1_Init()	8	static
+main.cpp:530:13:void MX_I2C3_Init()	8	static
+main.cpp:576:13:void MX_QUADSPI_Init()	24	static
+main.cpp:646:13:void MX_RTC_Init()	80	static
+main.cpp:736:13:void MX_SAI2_Init()	8	static
+main.cpp:811:13:void MX_SDMMC1_SD_Init()	4	static
+main.cpp:839:13:void MX_SPDIFRX_Init()	8	static
+main.cpp:875:13:void MX_SPI2_Init()	8	static
+main.cpp:915:13:void MX_TIM2_Init()	64	static
+main.cpp:974:13:void MX_TIM3_Init()	64	static
+main.cpp:1033:13:void MX_TIM5_Init()	64	static
+main.cpp:1092:13:void MX_TIM8_Init()	40	static
+main.cpp:1139:13:void MX_TIM12_Init()	40	static
+main.cpp:1181:13:void MX_USART1_UART_Init()	8	static
+main.cpp:1216:13:void MX_USART6_UART_Init()	8	static
+main.cpp:1251:13:void MX_GPIO_Init()	72	static
+main.cpp:1416:6:void StartDefaultTask(const void*)	16	static
+main.cpp:1455:6:void StartUartTask(const void*)	24	static
+main.cpp:1552:6:void StringToInt(uint8_t*)	40	static
+main.cpp:1592:6:void IntToString(char*, int)	16	static
+main.cpp:1617:6:void UpdateSpeedValue(char*, char*)	24	static
+main.cpp:1648:6:void HAL_UART_TxCpltCallback(UART_HandleTypeDef*)	16	static
+main.cpp:1652:6:void HAL_UART_RxCpltCallback(UART_HandleTypeDef*)	16	static
+main.cpp:1665:6:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	16	static
+main.cpp:1682:6:void Error_Handler()	4	static
