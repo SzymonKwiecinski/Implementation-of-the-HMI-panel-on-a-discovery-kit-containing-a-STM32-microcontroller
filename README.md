@@ -6,13 +6,15 @@
 
 
 ##AGH University of Science and Technology
->Faculty:     &nbsp;         Mechanical Engineering and Robotics
+>Faculty:         &nbsp;         Mechanical Engineering and Robotics
+>
 >Field of  Study: &nbsp;  Automatics Control and Robotics
 
 ### Engineer Diploma Thesis
 >Implementation of the HMI panel on a discovery kit containing a STM32 microcontroller.
 
-Author: &nbsp; _eng. Szymon Kwieciński_
+Author:     &nbsp; _eng. Szymon Kwieciński_
+
 Supervisor: &nbsp; _dr. eng. Łukasz Jastrzębski_
 
 <h3 align="center" id="header">Sumary</h3>
@@ -30,9 +32,10 @@ The purpose of the Engineering Thesis was to create a touch panel, which can be 
 <p align="center">
 <img  src="photos//short_presentation.gif" width="400" height="256" style="border-radius:25%">
 </p>
-<img  src="photos//1.jpg" width="300" height="200" style="border-radius:25%">
+
+<!-- <img  src="photos//1.jpg" width="300" height="200" style="border-radius:25%">
 <img  src="photos//2.jpg" width="300" height="200" style="border-radius:25%">
 <img  src="photos//3.jpg" width="300" height="200" style="border-radius:25%">
-<img  src="photos//4.jpg" width="300" height="200" style="border-radius:25%">
+<img  src="photos//4.jpg" width="300" height="200" style="border-radius:25%"> -->
 
 
