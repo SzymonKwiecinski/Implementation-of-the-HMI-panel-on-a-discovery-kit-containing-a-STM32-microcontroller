@@ -1,0 +1,532 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Components": [
+          {
+            "RelativeFilename": "background.png",
+            "Alpha": 255,
+            "Name": "imageBackground",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Type": "Image",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "button_up_pressed.png",
+            "Released": "button_up_released.png",
+            "Alpha": 255,
+            "Name": "buttonUp",
+            "X": 295,
+            "Y": 0,
+            "Width": 130,
+            "Height": 56,
+            "Type": "Button",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "button_left_pressed.png",
+            "Released": "button_left_released.png",
+            "Alpha": 255,
+            "Name": "buttonLeft",
+            "X": 240,
+            "Y": 71,
+            "Width": 56,
+            "Height": 130,
+            "Type": "Button",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "button_right_pressed.png",
+            "Released": "button_right_released.png",
+            "Alpha": 255,
+            "Name": "buttonRight",
+            "X": 425,
+            "Y": 71,
+            "Width": 56,
+            "Height": 130,
+            "Type": "Button",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "button_down_pressed.png",
+            "Released": "button_down_released.png",
+            "Alpha": 255,
+            "Name": "buttonDown",
+            "X": 295,
+            "Y": 216,
+            "Width": 130,
+            "Height": 56,
+            "Type": "Button",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "TextId": "SingleUseId1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId2",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Name": "textArea",
+            "X": 102,
+            "Y": 6,
+            "Width": 106,
+            "Height": 75,
+            "Type": "TextArea",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "round_edge_icon_button_pressed_stop.png",
+            "Released": "round_edge_icon_button_stop.png",
+            "Alpha": 255,
+            "Name": "buttonStop",
+            "X": 300,
+            "Y": 146,
+            "Width": 121,
+            "Height": 61,
+            "Type": "Button",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "round_left_rotation_pressed.png",
+            "Released": "round_left_rotation.png",
+            "Alpha": 255,
+            "Name": "buttonLeftRotation",
+            "X": 300,
+            "Y": 71,
+            "Width": 60,
+            "Height": 60,
+            "Type": "Button",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Pressed": "round_right_rotation_pressed.png",
+            "Released": "round_right_rotation.png",
+            "Alpha": 255,
+            "Name": "buttonRightRoration",
+            "X": 360,
+            "Y": 71,
+            "Width": 60,
+            "Height": 61,
+            "Type": "Button",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "IsHorizontalSlider": false,
+            "BackgroundUnselected": "__designer\\blue_slider_vertical_small_slider3_vertical_back.png",
+            "BackgroundSelected": "__designer\\blue_slider_vertical_small_slider3_vertical_fill.png",
+            "Indicator": "__designer\\blue_slider_vertical_small_indicators_slider3_vertical_nob.png",
+            "BackgroundX": 7,
+            "BackgroundY": 3,
+            "IndicatorPos": 0,
+            "IndicatorMax": 125,
+            "IndicatorMin": 0,
+            "ValueMax": 2240,
+            "ValueMin": 0,
+            "InitValue": 0,
+            "Style": "Style3",
+            "Name": "slider",
+            "X": 19,
+            "Y": 81,
+            "Width": 34,
+            "Height": 179,
+            "Type": "Slider",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "TextId": "SingleUseId12",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId13",
+              "UseBuffer": true,
+              "BufferSize": 5
+            },
+            "Name": "textAreaSlider",
+            "X": 5,
+            "Y": 6,
+            "Width": 62,
+            "Height": 75,
+            "Type": "TextArea",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "TextId": "SingleUseId14",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId15",
+              "UseBuffer": true,
+              "BufferSize": 6
+            },
+            "Name": "textAreaEncoderFR",
+            "X": 175,
+            "Y": 127,
+            "Width": 48,
+            "Height": 38,
+            "Type": "TextArea",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "TextId": "SingleUseId16",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId17",
+              "UseBuffer": true,
+              "BufferSize": 6
+            },
+            "Name": "textAreaEncoderFL",
+            "X": 83,
+            "Y": 127,
+            "Width": 48,
+            "Height": 38,
+            "Type": "TextArea",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "TextId": "SingleUseId18",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId19",
+              "UseBuffer": true,
+              "BufferSize": 6
+            },
+            "Name": "textAreaEncoderRL",
+            "X": 83,
+            "Y": 189,
+            "Width": 48,
+            "Height": 38,
+            "Type": "TextArea",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "TextId": "SingleUseId20",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId21",
+              "UseBuffer": true,
+              "BufferSize": 6
+            },
+            "Name": "textAreaEncoderRR",
+            "X": 175,
+            "Y": 189,
+            "Width": 48,
+            "Height": 38,
+            "Type": "TextArea",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "RelativeFilename": "ikony_wlasne2.png",
+            "Alpha": 255,
+            "Name": "ikony_wlasne21",
+            "X": 131,
+            "Y": 136,
+            "Width": 44,
+            "Height": 78,
+            "Type": "Image",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "ButtonUp",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonUp",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "FunctionName": "buttonUpVirtualFunction",
+              "Type": "ActionCustom"
+            }
+          },
+          {
+            "InteractionName": "ButtonDown",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonDown",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "FunctionName": "buttonDownVirtualFunction",
+              "Type": "ActionCustom"
+            }
+          },
+          {
+            "InteractionName": "ButtonLeft",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonLeft",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "FunctionName": "buttonLeftVirtualFunction",
+              "Type": "ActionCustom"
+            }
+          },
+          {
+            "InteractionName": "ButtonRight",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonRight",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "FunctionName": "buttonRightVirtualFunction",
+              "Type": "ActionCustom"
+            }
+          },
+          {
+            "InteractionName": "ButtonStop",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonStop",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "FunctionName": "buttonStopVirtualFunction",
+              "Type": "ActionCustom"
+            }
+          },
+          {
+            "InteractionName": "ButtonRightRotation",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonRightRoration",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "FunctionName": "buttonRightRotationVirtualFunction",
+              "Type": "ActionCustom"
+            }
+          },
+          {
+            "InteractionName": "ButtonLeftRotation",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "buttonLeftRotation",
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "FunctionName": "buttonLeftRotationVirtualFunction",
+              "Type": "ActionCustom"
+            }
+          },
+          {
+            "InteractionName": "SliderFunction",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "TriggerComponent": "slider",
+              "Type": "TriggerSliderValueConfirmed"
+            },
+            "Action": {
+              "FunctionName": "sliderVirtualFunction",
+              "Type": "ActionCustom"
+            }
+          }
+        ],
+        "Name": "Main",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "TextEntries": [
+      {
+        "TextEntryId": "SingleUseId1",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId2",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId12",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId13",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId14",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId15",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId16",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId17",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId18",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId19",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId20",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId21",
+        "IsResource": false
+      }
+    ],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/TouchGFX/touchgfx/",
+    "UIPath": ".",
+    "ApplicationTemplate": {
+      "Name": "Simulator",
+      "Version": "1.0.0",
+      "Description": "STM32CubeMX Generated Simulator Application Template",
+      "AvailableColorDepths": [
+        16
+      ],
+      "AvailableImageFormats": {
+        "16": {
+          "Opaque": "RGB565",
+          "NonOpaque": "ARGB8888"
+        }
+      },
+      "AvailableResolutions": [],
+      "PhysicalButtons": [],
+      "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j10",
+      "PostGenerateCommand": "echo test",
+      "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j10",
+      "RunSimulatorCommand": "build\\bin\\simulator.exe",
+      "CompileTargetCommand": "",
+      "FlashTargetCommand": ""
+    }
+  },
+  "Version": "4.10.0"
+}

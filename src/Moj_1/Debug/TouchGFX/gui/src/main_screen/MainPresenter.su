@@ -1,0 +1,25 @@
+Presenter.hpp:42:18:virtual void touchgfx::Presenter::activate()	16	static
+Presenter.hpp:54:18:virtual void touchgfx::Presenter::deactivate()	16	static
+Presenter.hpp:65:13:touchgfx::Presenter::~Presenter()	16	static
+Presenter.hpp:65:13:virtual touchgfx::Presenter::~Presenter()	16	static
+Presenter.hpp:78:5:touchgfx::Presenter::Presenter()	16	static
+ModelListener.hpp:19:5:ModelListener::ModelListener()	16	static
+ModelListener.hpp:21:13:ModelListener::~ModelListener()	16	static
+ModelListener.hpp:21:13:virtual ModelListener::~ModelListener()	16	static
+ModelListener.hpp:31:18:virtual void ModelListener::DisplayConnectedStatus(uint8_t)	16	static
+ModelListener.hpp:32:18:virtual void ModelListener::DisplayEncoderValue(int, int, int, int)	24	static
+MainPresenter.hpp:29:13:MainPresenter::~MainPresenter()	16	static
+MainPresenter.hpp:29:13:virtual MainPresenter::~MainPresenter()	16	static
+MainPresenter.cpp:4:1:MainPresenter::MainPresenter(MainView&)	16	static
+MainPresenter.cpp:9:6:virtual void MainPresenter::activate()	16	static
+MainPresenter.cpp:14:6:virtual void MainPresenter::deactivate()	16	static
+MainPresenter.cpp:19:6:virtual void MainPresenter::SendUpPresenter()	16	static
+MainPresenter.cpp:23:6:virtual void MainPresenter::SendDownPresenter()	16	static
+MainPresenter.cpp:27:6:virtual void MainPresenter::SendRightPresenter()	16	static
+MainPresenter.cpp:31:6:virtual void MainPresenter::SendLeftPresenter()	16	static
+MainPresenter.cpp:35:6:virtual void MainPresenter::SendRightRotationPresenter()	16	static
+MainPresenter.cpp:39:6:virtual void MainPresenter::SendLeftRotationPresenter()	16	static
+MainPresenter.cpp:43:6:virtual void MainPresenter::SendStopPresenter()	16	static
+MainPresenter.cpp:47:6:virtual void MainPresenter::SendSliderCurrentValue(int)	16	static
+MainPresenter.cpp:51:6:virtual void MainPresenter::DisplayConnectedStatus(uint8_t)	16	static
+MainPresenter.cpp:55:6:virtual void MainPresenter::DisplayEncoderValue(int, int, int, int)	32	static
