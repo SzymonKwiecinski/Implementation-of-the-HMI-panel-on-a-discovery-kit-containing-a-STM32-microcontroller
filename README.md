@@ -5,7 +5,7 @@
 <p align="right">Krakow, the 15.01.2020</p> 
 
 
-##AGH University of Science and Technology
+## AGH University of Science and Technology
 >Faculty:         &nbsp;         Mechanical Engineering and Robotics
 >
 >Field of  Study: &nbsp;  Automatics Control and Robotics
